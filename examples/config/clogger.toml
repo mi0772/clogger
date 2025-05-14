@@ -1,0 +1,7 @@
+log_level = "DEBUG"
+use_colors = true
+log_file = "logs/clogger.log"
+output_stream = "stdout"
+
+[format]
+log_format = "[%LEVEL%] %TIME% - %FILE%:%LINE%:%FUNC%(): %MSG%"
